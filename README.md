@@ -91,7 +91,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **Headquarters:** Rajendrapur Bazar, Gazipur, Dhaka Division, Bangladesh.
 - **Trade Testing Hub:** Mirpur Technical Training Complex, Dhaka.
 - **Parent Entity:** [Keystone Education Consultancy](https://www.keystoneeducations.com)
-- **Official Emails:** `romania@keystoneeducations.com` / `info@keystoneeducations.com`
+- **Official Emails:** `munimm247@gmail.com` / `info@keystoneeducations.com`
 - **Direct 24/7 Agency Liaison (WhatsApp):** `+880 1941 646278`
 
 ---
