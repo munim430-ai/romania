@@ -334,7 +334,7 @@ const TRANSLATIONS = {
   }
 };
 
-let currentLang = 'en';
+let currentLang = 'ro';
 
 // ==========================================
 // 3. INITIALIZATION & DOM RENDERING
@@ -342,6 +342,7 @@ let currentLang = 'en';
 
 document.addEventListener('DOMContentLoaded', () => {
   initLanguageSwitcher();
+  setLanguage('ro');
   renderDocumentSteps(0);
   renderCandidateCards('all');
   renderCorTable();
