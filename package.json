@@ -1,0 +1,11 @@
+{
+  "name": "keystone-workforce-romania",
+  "version": "1.0.0",
+  "description": "Keystone Global Workforce Solutions - Technical Talent Sourcing & Compliance Partner for Romania",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": ["recruitment", "romania", "workforce", "bmet", "workinromania"],
+  "author": "Keystone Global Workforce",
+  "license": "ISC"
+}

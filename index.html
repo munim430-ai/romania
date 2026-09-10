@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keystone Global Workforce | Romania Technical Sourcing & Document Compliance Partner</title>
+  <meta name="description" content="Official technical talent sourcing and 100% compliant document preparation partner in Bangladesh for Romanian R.A.P.S. agencies and employers. Zero fake documents, 90-day replacement warranty.">
+  <meta name="keywords" content="recruitment romania, muncitori bangladesh romania, agentii raps romania, aviz de munca igi, cor romania, keystone workforce">
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
+</head>
+<body>
+
+  <!-- =================================================================
+       NAVIGATION BAR
+       ================================================================= -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand-logo">
+        <div class="logo-icon-box">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+          </svg>
+        </div>
+        <div class="brand-info">
+          <div class="brand-name">
+            <span class="flag-strip">
+              <span class="flag-ro-blue"></span>
+              <span class="flag-ro-yellow"></span>
+              <span class="flag-ro-red"></span>
+            </span>
+            KEYSTONE <span class="text-blue">GLOBAL</span>
+          </div>
+          <span class="brand-sub">Romania Workforce Division</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#why-keystone" class="nav-link" data-i18n="navSolutions">Compliance & Solutions</a></li>
+          <li><a href="#document-hub" class="nav-link" data-i18n="navDocs">7-Step Document Hub</a></li>
+          <li><a href="#showroom" class="nav-link" data-i18n="navShowroom">Candidate Showroom</a></li>
+          <li><a href="#occupations" class="nav-link" data-i18n="navOccupations">Deficit Occupations (COR)</a></li>
+          <li><a href="#calculator" class="nav-link" data-i18n="navCalc">Timeline Calculator</a></li>
+        </ul>
+      </nav>
+
+      <!-- Language Switcher & Action CTA -->
+      <div class="nav-actions">
+        <div class="lang-switcher">
+          <button id="lang-en" class="lang-btn active">🇬🇧 EN</button>
+          <button id="lang-ro" class="lang-btn">🇷🇴 RO</button>
+        </div>
+        <button class="btn btn-secondary btn-sm hidden md:inline-flex" onclick="openPortalModal()">
+          <svg class="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path></svg>
+          <span data-i18n="navPortalBtn">Agency Client Portal</span>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span data-i18n="navContactBtn">Request Pilot Cohort</span>
+        </a>
+        <button class="mobile-toggle" onclick="toggleMobileNav()" aria-label="Toggle Navigation">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-nav" class="mobile-nav">
+      <ul class="mobile-nav-links">
+        <li><a href="#why-keystone" onclick="toggleMobileNav()" data-i18n="navSolutions">Compliance & Solutions</a></li>
+        <li><a href="#document-hub" onclick="toggleMobileNav()" data-i18n="navDocs">7-Step Document Hub</a></li>
+        <li><a href="#showroom" onclick="toggleMobileNav()" data-i18n="navShowroom">Candidate Showroom</a></li>
+        <li><a href="#occupations" onclick="toggleMobileNav()" data-i18n="navOccupations">Deficit Occupations (COR)</a></li>
+        <li><a href="#calculator" onclick="toggleMobileNav()" data-i18n="navCalc">Timeline Calculator</a></li>
+        <li><a href="#contact" onclick="toggleMobileNav()" class="text-amber-400" data-i18n="navContactBtn">Request Pilot Cohort</a></li>
+      </ul>
+      <button class="btn btn-primary w-full" onclick="toggleMobileNav(); openPortalModal();">
+        <span data-i18n="navPortalBtn">Agency Client Portal</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- =================================================================
+         HERO SECTION
+         ================================================================= -->
+    <section class="hero-section">
+      <div class="hero-glow-bg"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <span class="badge badge-blue badge-pulse" data-i18n="heroBadge">
+              Official Sourcing Partner for Romanian R.A.P.S. Agencies
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            <span data-i18n="heroTitlePrefix">Direct Technical Sourcing &</span> 
+            <span class="gradient-text" data-i18n="heroTitleHighlight">100% Document-Compliant</span> 
+            <span data-i18n="heroTitleSuffix">Partner in Bangladesh</span>
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            Keystone Global Workforce provides vetted technical craftsmen from Bangladesh's top Government Technical Training Centers (TTCs). We prepare every document with zero errors for fast Romanian IGI Work Permit (Aviz de Muncă) issuance.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#showroom" class="btn btn-primary btn-lg">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+              <span data-i18n="heroCtaShowroom">Inspect Candidate Video CVs</span>
+            </a>
+            <button class="btn btn-secondary btn-lg" onclick="openPortalModal()">
+              <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              <span data-i18n="heroCtaPortal">Enter Agency Portal Demo</span>
+            </button>
+          </div>
+
+          <!-- Trust Badges Strip -->
+          <div class="trust-strip">
+            <div class="trust-item">
+              <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+              <span>100% COR Shortage Code Matched</span>
+            </div>
+            <div class="trust-item">
+              <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+              <span>Zero Fake Documents Guarantee</span>
+            </div>
+            <div class="trust-item">
+              <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+              <span>98.4% Visa Issuance Rate</span>
+            </div>
+            <div class="trust-item">
+              <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+              <span>90-Day Free Replacement Warranty</span>
+            </div>
+          </div>
+
+          <!-- KPI Stats Grid -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-num text-blue">2,450+</div>
+              <div class="stat-label" data-i18n="statScreened">Skilled Craftsmen Screened</div>
+              <div class="stat-desc">Welders, Fixers, Electricians, Operators</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num text-amber">50+</div>
+              <div class="stat-label" data-i18n="statTtc">Government TTC Partners</div>
+              <div class="stat-desc">Direct technical trade testing facilities</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num text-emerald">98.4%</div>
+              <div class="stat-label" data-i18n="statVisa">Consular Visa Approval Rate</div>
+              <div class="stat-desc">Flawless MOFA legalization dossiers</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num text-white">7 Days</div>
+              <div class="stat-label" data-i18n="statSla">Average Shortlist SLA</div>
+              <div class="stat-desc">With uncut practical trade audition video</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         WHY KEYSTONE (ANTI-MIDDLEMAN INSTITUTIONAL MATRIX)
+         ================================================================= -->
+    <section id="why-keystone" class="section-padding bg-slate-950/40">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="whyTag">The Anti-Middleman Standard</span>
+          <h2 class="section-title" data-i18n="whyTitle">Why Romanian Agencies Choose Keystone</h2>
+          <p class="section-subtitle" data-i18n="whySubtitle">
+            We eliminate rogue middlemen and fake papers with our institutional, transparent pipeline backed by Keystone Education Consultancy.
+          </p>
+        </div>
+
+        <div class="comparison-container">
+          <!-- Traditional Middlemen -->
+          <div class="comp-card comp-bad">
+            <div class="comp-header">
+              <h3 class="comp-title text-red" data-i18n="compBadTitle">Traditional Unregulated Brokers</h3>
+              <span class="badge badge-amber">High Risk for Agency</span>
+            </div>
+            <ul class="comp-list">
+              <li class="comp-item">
+                <svg class="text-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <span><strong>No Trade Testing:</strong> Candidates claim experience on paper but fail practical tests immediately upon arrival at Romanian job sites.</span>
+              </li>
+              <li class="comp-item">
+                <svg class="text-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <span><strong>Forged / Incomplete Papers:</strong> Fake medicals or missing MOFA stamps that trigger consular visa rejections and IGI re-filing penalties.</span>
+              </li>
+              <li class="comp-item">
+                <svg class="text-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <span><strong>Excessive Extortion:</strong> Brokers charge workers €6,000+ causing high runaway rates and worker distress in Romania.</span>
+              </li>
+              <li class="comp-item">
+                <svg class="text-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <span><strong>Zero Replacement Guarantee:</strong> When a worker abandons the contract, the agency suffers total loss.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Keystone Institutional Standard -->
+          <div class="comp-card comp-keystone">
+            <div class="comp-header">
+              <h3 class="comp-title text-emerald" data-i18n="compGoodTitle">Keystone Institutional Sourcing</h3>
+              <span class="badge badge-emerald">Institutional Standard</span>
+            </div>
+            <ul class="comp-list">
+              <li class="comp-item">
+                <svg class="text-emerald" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span><strong>TTC Practical Video Auditions:</strong> Uncut 4K video proof of skills recorded in certified workshops and stamped on CV via dynamic QR code.</span>
+              </li>
+              <li class="comp-item">
+                <svg class="text-emerald" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span><strong>100% MOFA & Police Legalization:</strong> Every dossier is verified, translated into English/Romanian, and apostilled with zero consular friction.</span>
+              </li>
+              <li class="comp-item">
+                <svg class="text-emerald" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span><strong>Zero Upfront Sourcing Fee for Agencies:</strong> Transparent, direct ethical recruitment model adhering to ILO fair recruitment guidelines.</span>
+              </li>
+              <li class="comp-item">
+                <svg class="text-emerald" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span><strong>90-Day Free Replacement Warranty:</strong> If any worker departs or fails trade standards within 90 days, we deploy a free qualified replacement.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         7-STEP DOCUMENT PREPARATION HUB
+         ================================================================= -->
+    <section id="document-hub" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="docTag">Zero-Rejection Protocol</span>
+          <h2 class="section-title" data-i18n="docTitle">The 7-Step End-to-End Document Preparation Lifecycle</h2>
+          <p class="section-subtitle" data-i18n="docSubtitle">
+            Every candidate arrives with a complete, legalized dossier ready for immediate submission to Inspectoratul General pentru Imigrări (IGI).
+          </p>
+        </div>
+
+        <div class="doc-hub-grid">
+          <!-- Left Step Selector -->
+          <div id="doc-nav-list" class="doc-nav-list">
+            <!-- Rendered dynamically by JavaScript -->
+          </div>
+
+          <!-- Right Interactive Document Panel -->
+          <div id="doc-preview-panel" class="doc-preview-panel">
+            <!-- Rendered dynamically by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         CANDIDATE SHOWROOM & VIDEO AUDITIONS
+         ================================================================= -->
+    <section id="showroom" class="section-padding bg-slate-950/40">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="showTag">Verified Talent Pool</span>
+          <h2 class="section-title" data-i18n="showTitle">Live Candidate Showroom & Video Auditions</h2>
+          <p class="section-subtitle" data-i18n="showSubtitle">
+            Browse pre-screened technical workers with authenticated trade test video links and COR codes.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="showroom-filter-bar">
+          <button class="filter-btn active" data-filter="all" onclick="filterCandidates('all')">All Verified Craftsmen</button>
+          <button class="filter-btn" data-filter="construction" onclick="filterCandidates('construction')">Construction (Welders, Fixers, Electricians)</button>
+          <button class="filter-btn" data-filter="logistics" onclick="filterCandidates('logistics')">Logistics & Forklift (Stivuitorist)</button>
+          <button class="filter-btn" data-filter="hospitality" onclick="filterCandidates('hospitality')">Hospitality & HoReCa</button>
+          <button class="filter-btn" data-filter="manufacturing" onclick="filterCandidates('manufacturing')">Manufacturing & CNC</button>
+        </div>
+
+        <!-- Grid of Candidates -->
+        <div id="candidates-grid" class="candidates-grid">
+          <!-- Rendered dynamically by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         ROMANIAN DEFICIT OCCUPATIONS EXPLORER (COR)
+         ================================================================= -->
+    <section id="occupations" class="section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="corTag">Market Shortage Alignment</span>
+          <h2 class="section-title" data-i18n="corTitle">Romanian Deficit Occupations Explorer</h2>
+          <p class="section-subtitle" data-i18n="corSubtitle">
+            Directly aligned with official shortage occupational lists from workinromania.gov.ro.
+          </p>
+        </div>
+
+        <!-- Search and Sector Filter -->
+        <div class="cor-search-box">
+          <div class="search-input-wrap">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            <input type="text" id="cor-search-input" class="cor-input" placeholder="Search by COR Code, Romanian or English Title (e.g. Sudor, Electrician, 721208)..." oninput="filterCorSearch()">
+          </div>
+          <select id="cor-sector-select" class="cor-select" onchange="filterCorSearch()">
+            <option value="all">All Sectors</option>
+            <option value="Construction">Construction & MEP</option>
+            <option value="Logistics">Logistics & Supply Chain</option>
+            <option value="Hospitality">Hospitality & Food</option>
+            <option value="Automotive">Manufacturing & CNC</option>
+            <option value="Agri">Agriculture</option>
+          </select>
+        </div>
+
+        <!-- Table Display -->
+        <div class="cor-table-wrap">
+          <table class="cor-table">
+            <thead>
+              <tr>
+                <th>COR Code</th>
+                <th>Occupational Title (RO / EN)</th>
+                <th>Sector</th>
+                <th>Salary Benchmark</th>
+                <th>Sourcing SLA</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="cor-table-body">
+              <!-- Rendered dynamically by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         B2B QUOTA & TIMELINE CALCULATOR
+         ================================================================= -->
+    <section id="calculator" class="section-padding bg-slate-950/40">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="calcTag">Estimate Lead Times</span>
+          <h2 class="section-title" data-i18n="calcTitle">B2B Quota & Timeline Calculator</h2>
+          <p class="section-subtitle" data-i18n="calcSubtitle">
+            Calculate deployment milestones for your client orders in Romania.
+          </p>
+        </div>
+
+        <div class="calc-grid">
+          <!-- Inputs Card -->
+          <div class="calc-inputs-card">
+            <div class="calc-slider-group">
+              <div class="calc-label-row">
+                <span class="calc-label">Number of Workers Required</span>
+                <span id="calc-workers-count" class="calc-value-badge">10 Workers</span>
+              </div>
+              <input type="range" id="calc-workers-slider" class="calc-slider" min="5" max="100" step="5" value="10">
+              <div class="flex justify-between text-xs text-dim mt-2">
+                <span>5 (Pilot Cohort)</span>
+                <span>25</span>
+                <span>50</span>
+                <span>100+ (Enterprise)</span>
+              </div>
+            </div>
+
+            <div class="form-grid form-grid-2 mb-4">
+              <div class="form-group">
+                <label class="form-label">Primary Trade Skill</label>
+                <select id="calc-trade-select" class="form-select">
+                  <option value="welders">Welders MIG/MAG (COR 721208)</option>
+                  <option value="fixers">Steel Fixers (COR 711401)</option>
+                  <option value="electricians">Industrial Electricians (COR 741101)</option>
+                  <option value="forklift">Forklift Stivuitorist (COR 834403)</option>
+                  <option value="chefs">Commercial Chefs (COR 512001)</option>
+                  <option value="cnc">CNC Operators (COR 722308)</option>
+                  <option value="general">General Labourers (COR 933303)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Destination Romanian County/City</label>
+                <select id="calc-city-select" class="form-select">
+                  <option value="bucharest">Bucharest / Ilfov (IGI Headquarters)</option>
+                  <option value="cluj">Cluj-Napoca</option>
+                  <option value="timisoara">Timișoara</option>
+                  <option value="brasov">Brașov</option>
+                  <option value="constanta">Constanța Port</option>
+                  <option value="iasi">Iași</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="p-4 bg-slate-900/60 rounded-lg border border-slate-800 text-xs text-slate-300">
+              <strong class="text-amber-400">Keystone Guarantee:</strong> All shortlists with video test links are delivered within 7-10 business days. Documents are dispatched digitally with full MOFA authentication within 5 days of candidate selection.
+            </div>
+          </div>
+
+          <!-- Results Summary Card -->
+          <div class="calc-results-card">
+            <div>
+              <span class="badge badge-amber mb-2">Estimated Deployment Timeline</span>
+              <h3 id="calc-total-days" class="text-3xl font-extrabold text-white mt-1">~71 Days (2.4 Months)</h3>
+              <p class="text-xs text-slate-400">Total estimated time from job order confirmation to candidate arrival in Romania.</p>
+            </div>
+
+            <div class="timeline-milestones">
+              <div class="milestone-row">
+                <div class="milestone-left">
+                  <span class="w-2 h-2 rounded-full bg-blue-400"></span>
+                  <span>1. Shortlisting & TTC Trade Video Testing</span>
+                </div>
+                <span id="calc-shortlist-days" class="milestone-days">7 Days</span>
+              </div>
+
+              <div class="milestone-row">
+                <div class="milestone-left">
+                  <span class="w-2 h-2 rounded-full bg-blue-400"></span>
+                  <span>2. MOFA Police & Medical Legalization Dossier</span>
+                </div>
+                <span id="calc-mofa-days" class="milestone-days">5 Days</span>
+              </div>
+
+              <div class="milestone-row">
+                <div class="milestone-left">
+                  <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+                  <span>3. Romanian IGI Work Permit (Aviz de Muncă)</span>
+                </div>
+                <span id="calc-igi-days" class="milestone-days">45 Days</span>
+              </div>
+
+              <div class="milestone-row">
+                <div class="milestone-left">
+                  <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                  <span>4. Romanian Consular Visa (D/AM) & BMET Card</span>
+                </div>
+                <span id="calc-visa-days" class="milestone-days">14 Days</span>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn-amber w-full">
+              Reserve This Quota Slot Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         RISK-FREE WARRANTY & INSTITUTIONAL BACKING
+         ================================================================= -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="p-8 md:p-12 rounded-3xl bg-gradient-to-r from-blue-900/30 via-slate-900 to-amber-950/20 border border-amber-500/30 shadow-2xl relative overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+            <div class="lg:col-span-2">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="badge badge-amber">Institutional Guarantee</span>
+                <span class="badge badge-emerald">Division of Keystone Education Consultancy</span>
+              </div>
+              <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-3" data-i18n="guaranteeTitle">
+                Our 90-Day Free Replacement Warranty
+              </h2>
+              <p class="text-slate-300 text-sm md:text-base mb-6" data-i18n="guaranteeDesc">
+                If any deployed worker fails to meet on-site trade standards or departs within 90 days of arrival, Keystone will source, document, and deploy a qualified replacement at zero agency sourcing fee.
+              </p>
+              <div class="flex flex-wrap gap-4 text-xs font-semibold text-slate-300">
+                <span class="flex items-center gap-1.5"><span class="text-emerald-400">✔</span> Zero Upfront Fee to Agency</span>
+                <span class="flex items-center gap-1.5"><span class="text-emerald-400">✔</span> Zero Fake Documents</span>
+                <span class="flex items-center gap-1.5"><span class="text-emerald-400">✔</span> Transparent ILO Fair Recruitment</span>
+                <span class="flex items-center gap-1.5"><span class="text-emerald-400">✔</span> Headquartered in Gazipur, Bangladesh</span>
+              </div>
+            </div>
+            <div class="text-center lg:text-right">
+              <div class="inline-block p-6 rounded-2xl bg-slate-900/80 border border-slate-700 shadow-xl">
+                <div class="text-xs text-dim uppercase font-bold mb-1">Direct Verification Desk</div>
+                <div class="text-lg font-bold text-white mb-2">Keystone Global Workforce</div>
+                <div class="text-xs text-emerald-400 font-mono mb-4">Official Division of Keystone Education Consultancy</div>
+                <a href="https://wa.me/8801941646278" target="_blank" rel="noopener" class="btn btn-emerald btn-sm w-full">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.079-1.807-.407-.988-.41-1.635-1.428-1.684-1.494-.049-.066-.401-.533-.401-1.016 0-.484.254-.722.344-.821.09-.099.196-.124.262-.124.066 0 .132.001.189.004.06.003.14-.023.218.164.08.188.272.663.296.713.024.05.04.108.008.174-.032.066-.048.107-.097.164-.049.057-.103.128-.147.172-.05.049-.102.102-.044.202.058.099.257.424.551.686.379.338.699.442.798.491.099.05.157.042.215-.025.058-.066.247-.287.313-.386.066-.099.132-.082.222-.049.09.033.575.271.674.32.099.05.165.074.19.115.024.041.024.238-.12.643z"/></svg>
+                  WhatsApp: +880 1941 646278
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         B2B PARTNERSHIP & PILOT COHORT REQUEST FORM
+         ================================================================= -->
+    <section id="contact" class="section-padding bg-slate-950/40">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="contactTag">Start a Risk-Free Pilot</span>
+          <h2 class="section-title" data-i18n="contactTitle">Request a 5-10 Worker Pilot Cohort</h2>
+          <p class="section-subtitle" data-i18n="contactSubtitle">
+            Partner with Keystone today. Zero upfront sourcing fees for accredited Romanian recruitment agencies. Test our quality on your next hiring wave.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Company Info & Credentials -->
+          <div class="contact-info-card">
+            <div>
+              <div class="badge badge-blue mb-3">Institutional Sourcing Partner</div>
+              <h3 class="text-2xl font-bold text-white mb-2">Keystone Global Workforce Solutions</h3>
+              <p class="text-sm text-slate-400">
+                Division of Keystone Education Consultancy. Operating technical testing programs in alliance with Government Technical Training Centers across Bangladesh.
+              </p>
+
+              <div class="contact-detail-list">
+                <div class="contact-detail-item">
+                  <div class="contact-icon-box">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                  </div>
+                  <div>
+                    <div class="text-xs uppercase font-bold text-dim">Headquarters</div>
+                    <div class="text-sm font-semibold text-white">Rajendrapur Bazar, Gazipur, Dhaka Division, Bangladesh</div>
+                    <div class="text-xs text-slate-400">Trade Testing Hub: Mirpur Technical Training Complex, Dhaka</div>
+                  </div>
+                </div>
+
+                <div class="contact-detail-item">
+                  <div class="contact-icon-box">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                  </div>
+                  <div>
+                    <div class="text-xs uppercase font-bold text-dim">Official Correspondence</div>
+                    <div class="text-sm font-semibold text-white">romania@keystoneeducations.com</div>
+                    <div class="text-xs text-slate-400">info@keystoneeducations.com • www.keystoneeducations.com</div>
+                  </div>
+                </div>
+
+                <div class="contact-detail-item">
+                  <div class="contact-icon-box">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                  </div>
+                  <div>
+                    <div class="text-xs uppercase font-bold text-dim">Direct WhatsApp & Hotline</div>
+                    <div class="text-sm font-semibold text-emerald-400">+880 1941 646278 (24/7 Agency Liaison)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-400">
+              <strong class="text-white">Romanian R.A.P.S. Agencies:</strong> We provide full Agency-to-Agency Service Level Agreements (SLA) with zero legal liability for upfront costs.
+            </div>
+          </div>
+
+          <!-- Interactive Request Form -->
+          <div class="form-card">
+            <form id="pilot-form">
+              <div class="form-grid form-grid-2 mb-4">
+                <div class="form-group">
+                  <label class="form-label" data-i18n="formName">Your Full Name</label>
+                  <input type="text" class="form-input" placeholder="e.g. Andrei Popescu" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" data-i18n="formCompany">Romanian Agency / Employer Name</label>
+                  <input type="text" class="form-input" placeholder="e.g. Work In Romania SRL" required>
+                </div>
+              </div>
+
+              <div class="form-grid form-grid-2 mb-4">
+                <div class="form-group">
+                  <label class="form-label" data-i18n="formEmail">Corporate Email Address</label>
+                  <input type="email" class="form-input" placeholder="e.g. office@agency.ro" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" data-i18n="formPhone">Phone / WhatsApp Number</label>
+                  <input type="tel" class="form-input" placeholder="e.g. +40 722 000 000" required>
+                </div>
+              </div>
+
+              <div class="form-grid form-grid-2 mb-4">
+                <div class="form-group">
+                  <label class="form-label" data-i18n="formTrade">Required Trade / Occupation</label>
+                  <select class="form-select" required>
+                    <option value="">Select Primary Occupation</option>
+                    <option value="welders">MIG/MAG / TIG Welders (COR 721208)</option>
+                    <option value="fixers">Steel Fixers / Fierar Betonist (COR 711401)</option>
+                    <option value="carpenters">Formwork Carpenters / Dulgher (COR 711501)</option>
+                    <option value="electricians">Industrial Electricians (COR 741101)</option>
+                    <option value="forklift">Forklift Stivuitorist (COR 834403)</option>
+                    <option value="chefs">Commercial Chefs / Cook (COR 512001)</option>
+                    <option value="cnc">CNC Operators (COR 722308)</option>
+                    <option value="garment">Textile / Sewing Operators (COR 815201)</option>
+                    <option value="general">General Construction & Warehouse</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" data-i18n="formCount">Number of Workers Needed</label>
+                  <input type="number" class="form-input" min="5" max="500" placeholder="e.g. 10 (Pilot Cohort)" required>
+                </div>
+              </div>
+
+              <div class="form-group mb-6">
+                <label class="form-label" data-i18n="formMsg">Specific Job Requirements or Questions</label>
+                <textarea class="form-textarea" placeholder="Provide any specific certifications (ISO 9606, 3-Phase wiring), project timeline, or target Romanian city..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg w-full">
+                <span data-i18n="formSubmit">Submit Pilot Cohort Request</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =================================================================
+       AGENCY PORTAL MODAL (PLACEHOLDER & INTERACTIVE DEMO)
+       ================================================================= -->
+  <div id="portal-modal" class="modal-backdrop">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeModal('portal-modal')">✕</button>
+      
+      <div class="portal-frame">
+        <div class="portal-topbar">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded bg-blue-600 flex items-center justify-center font-bold text-white text-xs">
+              RAPS
+            </div>
+            <div>
+              <div class="text-sm font-bold text-white">Keystone RAPS Agency Client Portal</div>
+              <div class="text-xs text-emerald-400">● Live Connection: Authorized Agency Access</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="badge badge-amber text-xs">Agency ID: RO-RAPS-8821</span>
+          </div>
+        </div>
+
+        <div class="portal-layout">
+          <!-- Sidebar -->
+          <div class="portal-sidebar">
+            <a href="javascript:void(0)" id="portal-tab-pipeline" class="portal-menu-link active" onclick="switchPortalTab('pipeline')">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+              Candidate Pipeline
+            </a>
+            <a href="javascript:void(0)" id="portal-tab-documents" class="portal-menu-link" onclick="switchPortalTab('documents')">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2"></path></svg>
+              IGI Document Vault
+            </a>
+            <a href="javascript:void(0)" id="portal-tab-orders" class="portal-menu-link" onclick="switchPortalTab('orders')">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              New Demand Order
+            </a>
+          </div>
+
+          <!-- Main View -->
+          <div id="portal-view-container" class="portal-content">
+            <div class="flex items-center justify-between mb-4">
+              <h4 class="text-base font-bold text-white">Live Candidate Pipeline (Active Quota: 25 Welders & Fitters)</h4>
+              <button class="btn btn-secondary btn-sm" onclick="showToast('Pipeline refreshed with live IGI status')">Refresh Sync</button>
+            </div>
+            <div class="overflow-x-auto">
+              <table class="cor-table">
+                <thead>
+                  <tr>
+                    <th>Candidate</th>
+                    <th>Trade</th>
+                    <th>TTC Score</th>
+                    <th>MOFA Status</th>
+                    <th>IGI Permit Dossier</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="font-bold text-white">Tariqul Islam (KGW-RO-2401)</td>
+                    <td>MIG/MAG Welder (COR 721208)</td>
+                    <td><span class="badge badge-emerald">96% (Grade A+)</span></td>
+                    <td><span class="badge badge-blue">MOFA Attested</span></td>
+                    <td><span class="badge badge-amber">IGI Dossier Ready</span></td>
+                    <td><button class="btn btn-secondary btn-sm" onclick="showToast('Downloading single-permit zip file...')">Download ZIP</button></td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold text-white">Mohammad Rasel (KGW-RO-2402)</td>
+                    <td>Steel Fixer (COR 711401)</td>
+                    <td><span class="badge badge-emerald">94% (Grade A)</span></td>
+                    <td><span class="badge badge-blue">MOFA Attested</span></td>
+                    <td><span class="badge badge-amber">IGI Dossier Ready</span></td>
+                    <td><button class="btn btn-secondary btn-sm" onclick="showToast('Downloading single-permit zip file...')">Download ZIP</button></td>
+                  </tr>
+                  <tr>
+                    <td class="font-bold text-white">Shakil Ahmed (KGW-RO-2403)</td>
+                    <td>Forklift Stivuitorist (COR 834403)</td>
+                    <td><span class="badge badge-emerald">98% (Grade A+)</span></td>
+                    <td><span class="badge badge-blue">MOFA Attested</span></td>
+                    <td><span class="badge badge-emerald">Aviz de Muncă Issued</span></td>
+                    <td><button class="btn btn-primary btn-sm" onclick="showToast('Consulate Visa Stamping Scheduled')">Visa File</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       VIDEO AUDITION MODAL
+       ================================================================= -->
+  <div id="video-modal" class="modal-backdrop">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeModal('video-modal')">✕</button>
+      <div id="video-modal-content">
+        <!-- Rendered dynamically by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       FOOTER
+       ================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col">
+          <div class="brand-logo mb-4">
+            <div class="logo-icon-box">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+            </div>
+            <div class="brand-info">
+              <div class="brand-name">KEYSTONE <span class="text-blue">GLOBAL</span></div>
+              <span class="brand-sub">Romania Workforce Division</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 mb-4" data-i18n="footerText">
+            Keystone Global Workforce Solutions — A Division of Keystone Education Consultancy.
+          </p>
+          <div class="text-xs text-slate-400" data-i18n="footerAddress">
+            Rajendrapur Bazar, Gazipur, Dhaka Division, Bangladesh.
+          </div>
+        </div>
+
+        <!-- Col 2: Solutions -->
+        <div class="footer-col">
+          <h4>Compliance</h4>
+          <ul class="footer-links">
+            <li><a href="#document-hub">Single Permit Dossiers</a></li>
+            <li><a href="#document-hub">MOFA Legalization</a></li>
+            <li><a href="#document-hub">TTC Trade Skill Testing</a></li>
+            <li><a href="#document-hub">BMET Smart Card Clearance</a></li>
+            <li><a href="#why-keystone">90-Day Replacement Warranty</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Sectors -->
+        <div class="footer-col">
+          <h4>Sectors & COR</h4>
+          <ul class="footer-links">
+            <li><a href="#occupations">MIG/MAG Welders (COR 721208)</a></li>
+            <li><a href="#occupations">Steel Fixers (COR 711401)</a></li>
+            <li><a href="#occupations">Electricians (COR 741101)</a></li>
+            <li><a href="#occupations">Forklift Stivuitorist (COR 834403)</a></li>
+            <li><a href="#occupations">HoReCa & Chefs (COR 512001)</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Portals -->
+        <div class="footer-col">
+          <h4>B2B Access</h4>
+          <ul class="footer-links">
+            <li><a href="javascript:void(0)" onclick="openPortalModal()">RAPS Agency Portal</a></li>
+            <li><a href="#calculator">Timeline Calculator</a></li>
+            <li><a href="https://www.keystoneeducations.com" target="_blank" rel="noopener">Keystone Education Main Site</a></li>
+            <li><a href="https://wa.me/8801941646278" target="_blank" rel="noopener">Direct WhatsApp Desk</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Keystone Global Workforce Solutions. All rights reserved. Repurposed from <a href="https://www.keystoneeducations.com" target="_blank" rel="noopener" class="text-blue-400 underline">Keystone Education Consultancy</a>.
+        </div>
+        <div class="flex items-center gap-4">
+          <span class="text-emerald-400 flex items-center gap-1">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 inline-block"></span> Vercel Ready
+          </span>
+          <span>100% ILO Fair Recruitment Compliant</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
